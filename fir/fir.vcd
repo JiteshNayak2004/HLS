@@ -1,0 +1,161 @@
+$date
+	Tue Jul  9 14:45:32 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_FIR $end
+$var wire 1 ! s_axis_fir_tlast $end
+$var wire 1 " s_axis_fir_tready $end
+$var wire 1 # m_axis_fir_tvalid $end
+$var wire 1 $ m_axis_fir_tlast $end
+$var wire 4 % m_axis_fir_tkeep [3:0] $end
+$var wire 32 & m_axis_fir_tdata [31:0] $end
+$var reg 1 ' clk $end
+$var reg 4 ( cntr [3:0] $end
+$var reg 1 ) m_axis_fir_tready $end
+$var reg 1 * reset $end
+$var reg 16 + s_axis_fir_tdata [15:0] $end
+$var reg 1 , s_axis_fir_tvalid $end
+$var reg 5 - state_reg [4:0] $end
+$scope module FIR_i $end
+$var wire 1 ' clk $end
+$var wire 1 ) m_axis_fir_tready $end
+$var wire 1 * reset $end
+$var wire 16 . s_axis_fir_tdata [15:0] $end
+$var wire 4 / s_axis_fir_tkeep [3:0] $end
+$var wire 1 ! s_axis_fir_tlast $end
+$var wire 1 , s_axis_fir_tvalid $end
+$var wire 16 0 tap0 [15:0] $end
+$var wire 16 1 tap1 [15:0] $end
+$var wire 16 2 tap10 [15:0] $end
+$var wire 16 3 tap11 [15:0] $end
+$var wire 16 4 tap12 [15:0] $end
+$var wire 16 5 tap13 [15:0] $end
+$var wire 16 6 tap14 [15:0] $end
+$var wire 16 7 tap2 [15:0] $end
+$var wire 16 8 tap3 [15:0] $end
+$var wire 16 9 tap4 [15:0] $end
+$var wire 16 : tap5 [15:0] $end
+$var wire 16 ; tap6 [15:0] $end
+$var wire 16 < tap7 [15:0] $end
+$var wire 16 = tap8 [15:0] $end
+$var wire 16 > tap9 [15:0] $end
+$var reg 32 ? acc0 [31:0] $end
+$var reg 32 @ acc1 [31:0] $end
+$var reg 32 A acc10 [31:0] $end
+$var reg 32 B acc11 [31:0] $end
+$var reg 32 C acc12 [31:0] $end
+$var reg 32 D acc13 [31:0] $end
+$var reg 32 E acc14 [31:0] $end
+$var reg 32 F acc2 [31:0] $end
+$var reg 32 G acc3 [31:0] $end
+$var reg 32 H acc4 [31:0] $end
+$var reg 32 I acc5 [31:0] $end
+$var reg 32 J acc6 [31:0] $end
+$var reg 32 K acc7 [31:0] $end
+$var reg 32 L acc8 [31:0] $end
+$var reg 32 M acc9 [31:0] $end
+$var reg 16 N buff0 [15:0] $end
+$var reg 16 O buff1 [15:0] $end
+$var reg 16 P buff10 [15:0] $end
+$var reg 16 Q buff11 [15:0] $end
+$var reg 16 R buff12 [15:0] $end
+$var reg 16 S buff13 [15:0] $end
+$var reg 16 T buff14 [15:0] $end
+$var reg 16 U buff2 [15:0] $end
+$var reg 16 V buff3 [15:0] $end
+$var reg 16 W buff4 [15:0] $end
+$var reg 16 X buff5 [15:0] $end
+$var reg 16 Y buff6 [15:0] $end
+$var reg 16 Z buff7 [15:0] $end
+$var reg 16 [ buff8 [15:0] $end
+$var reg 16 \ buff9 [15:0] $end
+$var reg 4 ] buff_cnt [3:0] $end
+$var reg 1 ^ enable_buff $end
+$var reg 1 _ enable_fir $end
+$var reg 16 ` in_sample [15:0] $end
+$var reg 32 a m_axis_fir_tdata [31:0] $end
+$var reg 4 b m_axis_fir_tkeep [3:0] $end
+$var reg 1 $ m_axis_fir_tlast $end
+$var reg 1 # m_axis_fir_tvalid $end
+$var reg 1 " s_axis_fir_tready $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 b
+bx a
+bx `
+0_
+0^
+b1111 ]
+bx \
+bx [
+bx Z
+bx Y
+bx X
+bx W
+bx V
+bx U
+bx T
+bx S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+b0 >
+b10100000101101 =
+b100000000000000 <
+b10100000101101 ;
+b0 :
+b1111010000001100 9
+b0 8
+b10110100101 7
+b1111110010011100 6
+b0 5
+b10110100101 4
+b0 3
+b1111010000001100 2
+b0 1
+b1111110010011100 0
+b0z /
+bx .
+bx -
+0,
+bx +
+1*
+1)
+bx (
+1'
+bx &
+b1111 %
+0$
+0#
+0"
+z!
+$end
+#5000
+0'
+#10000
+1'
